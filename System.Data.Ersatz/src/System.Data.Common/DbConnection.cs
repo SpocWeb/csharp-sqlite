@@ -30,11 +30,8 @@
 // WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 //
 
-
-
 using System.ComponentModel;
 using System.Data;
-
 
 namespace System.Data.Common {
 	public abstract class DbConnection :  IDbConnection, IDisposable

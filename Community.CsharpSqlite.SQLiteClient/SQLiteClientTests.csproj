@@ -8,9 +8,9 @@
     <ProjectGuid>{B83741E9-7012-491E-B15D-3B083506A143}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SQLiteClientTests</RootNamespace>
-    <AssemblyName>SQLiteClientTests</AssemblyName>
-    <StartupObject>SQLiteClientTests.SQLiteClientTestDriver</StartupObject>
+    <RootNamespace>SqLiteClientTests</RootNamespace>
+    <AssemblyName>SqLiteClientTests</AssemblyName>
+    <StartupObject>SqLiteClientTests.SqLiteClientTestDriver</StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <OldToolsVersion>3.5</OldToolsVersion>
@@ -89,6 +89,12 @@
     <Reference Include="System.XML" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="..\..\..\..\NET\_root\Attributes\Annotations.cs">
+      <Link>TestDriver_src\Annotations.cs</Link>
+    </Compile>
+    <Compile Include="..\..\..\..\NET\_root\Attributes\NUnit.cs">
+      <Link>TestDriver_src\NUnit.cs</Link>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestDriver_src\SQLiteClientTestDriver.cs" />
   </ItemGroup>

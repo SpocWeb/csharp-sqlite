@@ -32,10 +32,8 @@
 
 using System;
 using System.Data;
-using System.IO;
 using System.Data.Common;
 using System.Text;
-using Community.CsharpSqlite;
 
 namespace Community.CsharpSqlite.SQLiteClient
 {
@@ -209,10 +207,10 @@ namespace Community.CsharpSqlite.SQLiteClient
 											 StringComparison.InvariantCultureIgnoreCase)) {
 								AppDomainSetup ads = AppDomain.CurrentDomain.SetupInformation;
 								string filePath = String.Format ("App_Data{0}{1}",
-												 Path.DirectorySeparatorChar,
+												 System.IO.Path.DirectorySeparatorChar,
 												 tvalue_lc.Substring (15));
-								
-								db_file = Path.Combine (ads.ApplicationBase, filePath);
+
+								db_file = System.IO.Path.Combine(ads.ApplicationBase, filePath);
 #endif
 							} else {
 #if !WINDOWS_PHONE

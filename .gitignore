@@ -1,0 +1,22 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Community.CsharpSqlite.SQLiteClient.WinRT/MetroSQLiteClientTest2/bin/Debug
+/Community.CsharpSqlite.SQLiteClient.WinRT/MetroSQLiteClientTest2/obj/Debug
+/Community.CsharpSqlite/bin/Debug
+/Community.CsharpSqlite.SQLiteClient/bin/Debug
+/Community.CsharpSqlite.SQLiteClient/obj/Debug
+/Community.CsharpSqlite/obj/Debug
+/Community.CsharpSqlite.SQLiteClient.WinRT/bin/Debug
+/Community.CsharpSqlite.SQLiteClient.WinRT/obj/Debug
+/Community.CsharpSqlite.WinRT/bin/Debug
+/Community.CsharpSqlite.WinRT/obj/Debug
+/System.Data.Ersatz/WinRT/bin/Debug
+/System.Data.Ersatz/WinRT/obj/Debug
+/Community.CsharpSqlite.SQLiteClient/Community.CsharpSqlite.SQLiteClient.sln.DotSettings.user
+/Community.CsharpSqlite.SQLiteClient/Community.CsharpSqlite.SQLiteClient.v12.suo
+/Community.CsharpSqlite.SQLiteClient/SQLiteClientTests.csproj.DotSettings
+*.suo
+/Community.CsharpSqlite.SQLiteClient.WinRT/MetroSQLiteClientTest2/Backup
+/Community.CsharpSqlite.WinRT/Backup
